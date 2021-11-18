@@ -91,21 +91,33 @@
 /* TENTH EX */
 
 .ex-10-icon {
-    animation: spin 1s linear infinite reverse;
+    animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
-    from {
-        transform: rotate(0deg)
-    } 
-    to {
-        transform: rotate(360deg)
+    0% {
+        transform: rotate(1turn);
     }
 }
 
 
 /* ELEVENTH EX */
 
+.ex-11-icon:hover {
+    animation: spin 2s .5s linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(270deg)
+    }
+    100% {
+        transform: scale(0deg);
+    }
+}
 
 
 /* TWELFTH EX */
