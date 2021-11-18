@@ -68,7 +68,13 @@
 
 /* EIGHTH EX */
 
-
+.ex-8-img{
+    transition: border-radius 2s, filter 2s;
+}
+.ex-8-img:hover {
+    border-radius: 30px;
+    filter: grayscale(.5) sepia(.5);
+}
 
 /* NINTH EX */
 
