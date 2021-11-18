@@ -104,14 +104,14 @@
 /* ELEVENTH EX */
 
 .ex-11-icon:hover {
-    animation: spin 2s .5s linear;
+    animation: spinback 2s linear;
 }
 
-@keyframes spin {
+@keyframes spinback {
     0% {
         transform: rotate(0deg);
     }
-    75% {
+    90% {
         transform: rotate(270deg)
     }
     100% {
