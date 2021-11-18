@@ -90,6 +90,18 @@
 
 /* TENTH EX */
 
+.ex-10-icon {
+    animation: spin 1s linear infinite reverse;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg)
+    } 
+    to {
+        transform: rotate(360deg)
+    }
+}
 
 
 /* ELEVENTH EX */
